@@ -30,18 +30,18 @@ body {
     background-color: blue;
     color: white;
     justify-content: center;
-    align-items: center;
+    align-items: center;;
 }
 
 .main {
     grid-area: main;
-    background-color: whitesmoke;
+    background-color: rgb(232, 232, 232);
 }  
 
 .sidebar {
     grid-area: sidebar;
     min-height: 100vh;
-    background-color: gray;
+    background-color: rgb(232, 232, 232);
 }
 
 .footer {
