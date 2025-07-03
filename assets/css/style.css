@@ -4,19 +4,22 @@
     box-sizing: border-box;
 }
 
-
-body {
-    background-color: antiquewhite;
+.body {
+    display: grid;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    width: 100%;;
 }
 
 .grid-container {
     display: grid;
     border: 1px solid black;
     gap: 1px;
+    grid-template-columns: 10% 1fr 1fr;
     grid-template-areas: 
-        "header header header header"
-        "sidebar main main main"
-        "footer footer footer footer";
+        "header header header"
+        "sidebar main main"
+        "footer footer footer";
 }
 
 .box {
@@ -50,6 +53,5 @@ body {
     justify-content: center;
     align-items: center;
     background-color: white;
-    color: black;|  
-    font-weight: bold;
+    color: black;
 }
