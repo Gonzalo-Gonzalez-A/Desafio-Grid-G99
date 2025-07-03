@@ -73,7 +73,6 @@
     grid-area: sidebar;
     min-height: 100vh;
     background-color: rgb(232, 232, 232);
-}
 
 .footer {
     grid-area: footer;
